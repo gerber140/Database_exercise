@@ -29,8 +29,12 @@ public class ClientService implements IClientService {
 
     @Override
     public void deleteClient(Long id) {
+        EntityTransaction tx = entityManager.getTransaction();
+        tx.begin();
         Client carToDelete = this.getClient(id);
         entityManager.remove(carToDelete);
+        entityManager.flush();
+        tx.commit();
     }
 
     public void close() {

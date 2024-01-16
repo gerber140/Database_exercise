@@ -10,8 +10,7 @@ public class Runner {
 
 //        clientService.addClient(kononowicz);
 //        System.out.println(clientService.getClient(1L));
-        clientService.deleteClient(17L);
-
+        clientService.deleteClient(12L);
         clientService.close();
 
     }
