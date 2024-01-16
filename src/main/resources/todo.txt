@@ -1,0 +1,5 @@
+Stwórz prostą aplikację z bazą danych.
+Aplikacja ma służyć do obsługi zapisywania klientów,
+czyli mamy klienta z imieniem nazwiskiem i peselem i datą wizyty,
+który zapisuje się do nas na wizytę. Aplikacja ma mieć serwis,
+który ma metodę która zapisuje klienta. Do tego metoda pobierająca klienta.
